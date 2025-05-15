@@ -1,0 +1,206 @@
+/****************************************
+    *****************************************
+
+        Chris Ayson
+        Professor Hahn
+        CSD 297 8884 -- IT Project
+        13 May 2025
+        Week 6 Progress Document
+
+    *****************************************
+    *****************************************/
+
+/* ##################################################################### */
+/* ######################### CHILDREN ALIGNMENT ######################## */
+/* ##################################################################### */
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.flex-mid {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.flex-end {
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    align-content: end;
+    align-items: end;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    justify-items: space-between;
+    align-content: space-between;
+    align-items: space-between;
+}
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    justify-items: space-around;
+    align-content: space-around;
+    align-items: space-around;
+}
+.flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+    align-content: space-evenly;
+    align-items: space-evenly;
+}
+
+/* ------------------------------------------- */
+
+.flex-main-start {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+}
+.flex-main-mid {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.flex-main-end {
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+}
+
+.flex-main-between {
+    display: flex;
+    justify-content: space-between;
+    justify-items: space-between;
+}
+.flex-main-around {
+    display: flex;
+    justify-content: space-around;
+    justify-items: space-around;
+}
+.flex-main-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+}
+
+/* ------------------------------------------- */
+
+.flex-cross-start {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.flex-cross-mid {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.flex-cross-end {
+    display: flex;
+    align-content: end;
+    align-items: end;
+}
+
+.flex-cross-between {
+    display: flex;
+    align-content: space-between;
+    align-items: space-between;
+}
+.flex-cross-around {
+    display: flex;
+    align-content: space-around;
+    align-items: space-around;
+}
+.flex-cross-evenly {
+    display: flex;
+    align-content: space-evenly;
+    align-items: space-evenly;
+}
+
+/* ##################################################################### */
+/* ########################### SELF ALIGNMENT ########################## */
+/* ##################################################################### */
+
+.self-mid {
+    justify-self: center;
+    align-self: center;
+}
+
+.self-left {
+    justify-self: center;
+    align-self: start;
+}
+
+.self-right {
+    justify-self: center;
+    align-self: end;
+}
+
+.self-top {
+    justify-self: start;
+    align-self: center;
+}
+
+.self-bottom {
+    justify-self: end;
+    align-self: center;
+}
+
+/* ##################################################################### */
+/* ########################### FLEX DIRECTION ########################## */
+/* ##################################################################### */
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-colrev {
+    flex-direction: column-reverse;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-rowrev {
+    flex-direction: row-reverse;
+}
+
+/* ##################################################################### */
+/* ############################# FLEX WRAP ############################# */
+/* ##################################################################### */
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* ##################################################################### */
+/* ########################## SHRINK AND GROW ########################## */
+/* ##################################################################### */
+
+.grow-0 {
+    flex-grow: 0;
+}
+.grow-1 {
+    flex-grow: 1;
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+}
+.shrink-1 {
+    flex-shrink: 1;
+}

@@ -1,0 +1,45 @@
+/****************************************
+    *****************************************
+
+        Chris Ayson
+        Professor Hahn
+        CSD 297 8884 -- IT Project
+        13 May 2025
+        Week 6 Progress Document
+
+    *****************************************
+    *****************************************/
+
+.img-1 {
+    width: 756px;
+    height: 426px;
+    background-image: url("feat-1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-2 {
+    width: 520px;
+    height: 292px;
+    background: blue;
+    background-image: url("feat-2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-3 {
+    width: 374px;
+    height: 210px;
+    background: blue;
+    background-image: url("feat-3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-1 {
+    background-image: url("bg-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(53, 45, 115, 0.677);
+    background-blend-mode: darken;
+}

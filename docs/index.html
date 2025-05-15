@@ -1,0 +1,154 @@
+<!--
+    Chris Ayson
+    Professor Hahn
+    CSD 297 8884 -- IT Project
+    13 May 2025
+    Week 6 Progress Document
+-->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/flex.css" />
+        <link rel="stylesheet" href="css/spacing.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="img/src.css" />
+        <title>🖊 cayson 📋 IT Project 📋</title>
+    </head>
+
+    <body class="bg-1 clip-x">
+        <div class="mb-0 r-t-1 bg-silver bg-swirl w-100 h-24px"></div>
+
+        <!-- Top Title Bar -->
+        <header class="mr-1 p-2 r-2 bg-silver flex-mid flex-col rel">
+            <h1 class="osfont smudge-navy-3 mb-0 mt-0">🖊CSD 297</h1>
+            <h2 class="osfont smudge-navy-3 mb-0 mt-0">📋 IT Project</h2>
+            <div class="flex-mid flex-row">
+                <h3 class="osfont smudge-navy-1 m-2">⭐Chris Ayson</h3>
+                <h3 class="osfont smudge-navy-1 m-2">⭐Prof. Hahn</h3>
+            </div>
+            <h3 class="osfont smudge-navy-1 m-0">💼 Week 6 Progress Update</h3>
+            <div
+                class="abs border-silver-4 size-100 t-0 l-0 shadow-black-1 no-pointer"
+            ></div>
+        </header>
+
+        <!-- Feature 1 Thumbnail -->
+        <section class="ml-1 mt-1 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 bold r-b-2">
+                <div class="img-1"></div>
+                <p>⚙ FEATURE 1 📌 WIREFRAME SHADER ⚙</p>
+            </div>
+            <div class="grow-1 h-100 flex-mid no-select"><h1>&nbsp;</h1></div>
+        </section>
+
+        <!-- Feature 1 Description -->
+        <section class="ml-1 mt-1 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 r-b-2">
+                <ul class="p-2 list-none">
+                    <li>Added a wireframe outline to interactable objects.</li>
+                    <li>Created using a graphics shader program in HLSL.</li>
+                    <li>It injects logic into calculating each pixel color.</li>
+                    <li>If barymetric coordinate near 0 or 1, edits color.</li>
+                </ul>
+            </div>
+            <div class="grow-1 h-100 flex-mid no-select"><h1>&nbsp;</h1></div>
+        </section>
+
+        <!-- Feature 2 Thumbnail -->
+        <section class="ml-1 mt-5 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 bold r-b-2">
+                <div class="bg-silver bg-swirl w-100 h-24px"></div>
+                <div class="img-2"></div>
+                <p>⚙ FEATURE 2 📌 WORLD SPACE POINTER ⚙</p>
+            </div>
+            <div class="grow-1 flex-mid h-100 no-select"><h1>&nbsp;</h1></div>
+        </section>
+
+        <!-- Feature 2 Description -->
+        <section class="ml-1 mt-1 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 r-b-2">
+                <ul class="p-2 list-none">
+                    <li>Translates screen mouse movements to world points.</li>
+                    <li>It casts a ray from camera to mouse position.</li>
+                    <li>If the ray hits, the mouse is hovering the object.</li>
+                    <li>Applies wireframe outline to hovered interactables.</li>
+                </ul>
+            </div>
+            <div class="grow-1 h-100 flex-mid no-select"><h1>&nbsp;</h1></div>
+        </section>
+
+        <!-- Feature 3 Thumbnail -->
+        <section class="ml-1 mt-5 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 bold r-b-2">
+                <div class="bg-silver bg-swirl w-100 h-24px"></div>
+                <div class="img-3"></div>
+                <p>⚙ FEATURE 3 📌 3D DRAG AND DROP ⚙</p>
+            </div>
+            <div class="grow-1 h-100 flex-mid no-select"><h1>&nbsp;</h1></div>
+        </section>
+
+        <!-- Feature 3 Description -->
+        <section class="ml-1 mt-1 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 r-b-2">
+                <ul class="p-2 list-none">
+                    <li>Mouse can drag objects parallel to camera plane.</li>
+                    <li>Quickly tap to drag until next pointer click.</li>
+                    <li>Hold to drag until next pointer release.</li>
+                </ul>
+            </div>
+            <div class="grow-1 h-100 flex-mid no-select"><h1>&nbsp;</h1></div>
+        </section>
+
+        <!-- Links -->
+        <section class="ml-1 mt-5 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 bold r-b-2">
+                <div class="bg-silver bg-swirl w-100 h-24px"></div>
+                <p>⚙ LINKS ⚙</p>
+            </div>
+            <div class="grow-1 h-100 flex-mid no-select"><h1>&nbsp;</h1></div>
+        </section>
+
+        <section class="ml-1 mt-1 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 r-b-2">
+                <ul class="p-2 list-none">
+                    <li class="flex-row">
+                        <span>Source Code: </span>
+                        <a href="https://github.com/AysonAudio/oog">Github</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grow-1 h-100 flex-mid no-select"><h1>&nbsp;</h1></div>
+        </section>
+
+        <!-- Links -->
+        <section class="ml-1 mt-1 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 bold r-b-2">
+                <p>⚙ PLANS FOR NEXT WEEK ⚙</p>
+            </div>
+            <div class="grow-1 h-100 flex-mid no-select"><h1>&nbsp;</h1></div>
+        </section>
+
+        <section class="ml-1 mt-0 w-100 r-b-2 flex-mid arial">
+            <div class="grow-1 flex-mid no-select"><h1>&nbsp;</h1></div>
+            <div class="grow-1 flex-mid flex-col bg-silver txt-12 r-b-2">
+                <ul class="p-2">
+                    <li>Changed game concept to travelling caravan.</li>
+                    <li>Will create a shop. Drag 3D objects to buy.</li>
+                </ul>
+            </div>
+            <div class="grow-1 h-100 flex-mid no-select"><h1>&nbsp;</h1></div>
+        </section>
+    </body>
+</html>

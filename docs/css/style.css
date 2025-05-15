@@ -1,0 +1,286 @@
+/****************************************
+    *****************************************
+
+        Chris Ayson
+        Professor Hahn
+        CSD 297 8884 -- IT Project
+        13 May 2025
+        Week 6 Progress Document
+
+    *****************************************
+    *****************************************/
+
+/* ##################################################################### */
+/* ############################# TYPOGRAPHY ############################ */
+/* ##################################################################### */
+
+.red {
+    color: red;
+}
+.navy {
+    color: navy;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.osfont {
+    font-family: system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.no-select {
+    user-select: none;
+}
+.no-pointer {
+    pointer-events: none;
+}
+
+.list-none {
+    list-style: none;
+}
+
+/* ##################################################################### */
+/* ############################ BACKGROUNDS ############################ */
+/* ##################################################################### */
+
+.bg-silver {
+    background-color: silver;
+}
+.bg-navy {
+    background-color: navy;
+}
+.bg-light-blue {
+    background-color: cornflowerblue;
+}
+.bg-lavender {
+    background-color: #aaaaee;
+}
+.bg-swirl {
+    background-image: url("../svg/swirl.svg");
+}
+
+.smudge-navy-1 {
+    text-shadow: 1px 1px 2px #00008080;
+}
+.smudge-navy-2 {
+    text-shadow: 2px 2px 4px #00008080;
+}
+.smudge-navy-3 {
+    text-shadow: 3px 3px 6px #00008080;
+}
+.smudge-navy-4 {
+    text-shadow: 4px 4px 8px #00008080;
+}
+.smudge-navy-5 {
+    text-shadow: 5px 5px 10px #00008080;
+}
+
+/* ##################################################################### */
+/* ############################## BORDERS ############################## */
+/* ##################################################################### */
+
+.shadow-black-1 {
+    box-shadow: -2px 4px 4px black;
+}
+
+.border-navy-1 {
+    border: 1px solid navy;
+}
+.border-navy-2 {
+    border: 2px solid navy;
+}
+.border-navy-3 {
+    border: 3px solid navy;
+}
+.border-navy-4 {
+    border: 4px solid navy;
+}
+.border-navy-5 {
+    border: 5px solid navy;
+}
+
+.border-silver-1 {
+    border: 1px solid silver;
+}
+.border-silver-2 {
+    border: 2px solid silver;
+}
+.border-silver-3 {
+    border: 3px solid silver;
+}
+.border-silver-4 {
+    border: 4px solid silver;
+}
+.border-silver-5 {
+    border: 5px solid silver;
+}
+
+.r-1 {
+    border-radius: 6px;
+}
+.r-2 {
+    border-radius: 12px;
+}
+.r-3 {
+    border-radius: 18px;
+}
+.r-4 {
+    border-radius: 24px;
+}
+.r-5 {
+    border-radius: 30px;
+}
+
+.r-t-1 {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.r-t-2 {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.r-t-3 {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.r-t-4 {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.r-t-5 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.r-r-1 {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.r-r-2 {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.r-r-3 {
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.r-r-4 {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.r-r-5 {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.r-b-1 {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.r-b-2 {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.r-b-3 {
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.r-b-4 {
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.r-b-5 {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.r-l-1 {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.r-l-2 {
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.r-l-3 {
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+}
+.r-l-4 {
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+}
+.r-l-5 {
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.r-tl-1 {
+    border-top-left-radius: 6px;
+}
+.r-tl-2 {
+    border-top-left-radius: 12px;
+}
+.r-tl-3 {
+    border-top-left-radius: 18px;
+}
+.r-tl-4 {
+    border-top-left-radius: 24px;
+}
+.r-tl-5 {
+    border-top-left-radius: 30px;
+}
+
+.r-tr-1 {
+    border-top-right-radius: 6px;
+}
+.r-tr-2 {
+    border-top-right-radius: 12px;
+}
+.r-tr-3 {
+    border-top-right-radius: 18px;
+}
+.r-tr-4 {
+    border-top-right-radius: 24px;
+}
+.r-tr-5 {
+    border-top-right-radius: 30px;
+}
+
+.r-br-1 {
+    border-bottom-right-radius: 6px;
+}
+.r-br-2 {
+    border-bottom-right-radius: 12px;
+}
+.r-br-3 {
+    border-bottom-right-radius: 18px;
+}
+.r-br-4 {
+    border-bottom-right-radius: 24px;
+}
+.r-br-5 {
+    border-bottom-right-radius: 30px;
+}
+
+.r-bl-1 {
+    border-bottom-left-radius: 6px;
+}
+.r-bl-2 {
+    border-bottom-left-radius: 12px;
+}
+.r-bl-3 {
+    border-bottom-left-radius: 18px;
+}
+.r-bl-4 {
+    border-bottom-left-radius: 24px;
+}
+.r-bl-5 {
+    border-bottom-left-radius: 30px;
+}
